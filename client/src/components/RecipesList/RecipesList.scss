@@ -1,0 +1,20 @@
+.recipes-list {
+  background: url('../../images/2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.massage {
+  height: 500px;
+  padding-top: 50px;
+  h3 {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+}
+
+.loading {
+  padding-top: 50px;
+}

@@ -1,0 +1,29 @@
+.navBarSearchInput {
+
+  &--hide {
+    visibility: hidden;
+  }
+  &--show {
+    visibility: visible;
+    position: relative;
+  }
+
+}
+.searvh-recipes-input {
+  padding-left: 5px;
+  &:focus {
+    outline: none;
+  }
+}
+.reset_search {
+  font-size: 20px;
+  color: green;
+  position: absolute;
+  top: 0;
+  right: 5px;
+  transition: 0.5s;
+  &:hover {
+    cursor: pointer;
+    color: red;
+  }
+}
